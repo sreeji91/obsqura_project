@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" Thread-count="6" parallel="tests">
+
+  <test name="Test1" >
+    <classes>
+      <class name="testCases.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2" >
+    <classes>
+      <class name="testCases.UnitTestCase"/>
+    </classes>
+  </test>
+   
+   
+   <!-- <test name="Test4">
+    <classes>
+      <class name="projectTestCases.BrandsTestCase"/>
+    </classes>
+  </test>
+   <test name="Test5">
+    <classes>
+      <class name="projectTestCases.AddProductTC"/>
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->

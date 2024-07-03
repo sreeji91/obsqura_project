@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="sequential">
+
+
+					<classes>
+						<class name="testCases.Login" />
+						<class name="testCases.UnitTestCase" /> 
+					</classes>
+				</include>
+			</run>
+		</groups>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
